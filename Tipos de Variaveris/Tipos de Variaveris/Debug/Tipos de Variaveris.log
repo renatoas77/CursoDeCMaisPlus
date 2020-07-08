@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\Doc\Algoritmos\CursoDeC--\Tipos de Variaveris\Tipos de Variaveris\Source.cpp(6,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Tipos de Variaveris.vcxproj -> E:\Doc\Algoritmos\CursoDeC--\Tipos de Variaveris\Debug\Tipos de Variaveris.exe
