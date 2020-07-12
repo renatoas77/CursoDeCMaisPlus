@@ -1,0 +1,8 @@
+﻿  Constantes.cpp
+E:\Doc\Algoritmos\ConstantesConsts\ConstantesConsts\Constantes.cpp(1,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\Doc\Algoritmos\ConstantesConsts\ConstantesConsts\Constantes.cpp(1,37): error C2440: 'initializing': cannot convert from 'const char [27]' to 'int'
+E:\Doc\Algoritmos\ConstantesConsts\ConstantesConsts\Constantes.cpp(1,7): message : There is no context in which this conversion is possible
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(1218,26): error C2365: 'system': redefinition; previous definition was 'data variable'
+E:\Doc\Algoritmos\ConstantesConsts\ConstantesConsts\Constantes.cpp(1): message : see declaration of 'system'
+E:\Doc\Algoritmos\ConstantesConsts\ConstantesConsts\Constantes.cpp(10,5): error C2064: term does not evaluate to a function taking 1 arguments
+E:\Doc\Algoritmos\ConstantesConsts\ConstantesConsts\Constantes.cpp(16,5): error C2064: term does not evaluate to a function taking 1 arguments
