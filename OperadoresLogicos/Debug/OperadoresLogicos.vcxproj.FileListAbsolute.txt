@@ -1,0 +1,2 @@
+E:\Doc\Algoritmos\CursoDeC--\OperadoresLogicos\Debug\OperadoresLogicos.exe
+E:\Doc\Algoritmos\CursoDeC--\OperadoresLogicos\Debug\OperadoresLogicos.pdb

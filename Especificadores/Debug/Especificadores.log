@@ -1,0 +1,3 @@
+﻿  Especificadores.cpp
+E:\Doc\Algoritmos\CursoDeC--\Especificadores\Especificadores.cpp(9,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Especificadores.vcxproj -> E:\Doc\Algoritmos\CursoDeC--\Especificadores\Debug\Especificadores.exe
