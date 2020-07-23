@@ -1,0 +1,3 @@
+﻿  IncDcr.cpp
+E:\Doc\Algoritmos\CursoDeC--\IncrementoEDecremento\IncDcr.cpp(5,30): warning C4101: 'Resultado': unreferenced local variable
+  IncrementoEDecremento.vcxproj -> E:\Doc\Algoritmos\CursoDeC--\IncrementoEDecremento\Debug\IncrementoEDecremento.exe
