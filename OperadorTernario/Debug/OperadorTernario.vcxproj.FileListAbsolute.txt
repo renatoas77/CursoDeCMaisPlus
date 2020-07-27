@@ -1,0 +1,2 @@
+E:\Doc\Algoritmos\CursoDeC--\OperadorTernario\Debug\OperadorTernario.exe
+E:\Doc\Algoritmos\CursoDeC--\OperadorTernario\Debug\OperadorTernario.pdb
