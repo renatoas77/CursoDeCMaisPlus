@@ -1,0 +1,2 @@
+E:\Doc\Algoritmos\CursoDeC--\VariavelEstatica\Debug\VariavelEstatica.exe
+E:\Doc\Algoritmos\CursoDeC--\VariavelEstatica\Debug\VariavelEstatica.pdb

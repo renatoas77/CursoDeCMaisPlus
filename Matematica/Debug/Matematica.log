@@ -1,0 +1,5 @@
+﻿  BibliotecaMatematica.cpp
+  Matematica.cpp
+E:\Doc\Algoritmos\CursoDeC--\Matematica\Matematica.cpp(34,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Matematica.vcxproj -> E:\Doc\Algoritmos\CursoDeC--\Matematica\Debug\Matematica.exe
