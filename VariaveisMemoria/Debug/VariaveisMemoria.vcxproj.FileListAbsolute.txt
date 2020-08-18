@@ -1,0 +1,2 @@
+E:\Doc\Algoritmos\CSharp\VariaveisMemoria\Debug\VariaveisMemoria.exe
+E:\Doc\Algoritmos\CSharp\VariaveisMemoria\Debug\VariaveisMemoria.pdb
