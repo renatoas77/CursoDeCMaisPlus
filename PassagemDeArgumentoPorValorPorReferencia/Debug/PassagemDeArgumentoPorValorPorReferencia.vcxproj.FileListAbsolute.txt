@@ -1,0 +1,2 @@
+E:\Doc\Algoritmos\CursoDeC--\PassagemDeArgumentoPorValorPorReferencia\Debug\PassagemDeArgumentoPorValorPorReferencia.exe
+E:\Doc\Algoritmos\CursoDeC--\PassagemDeArgumentoPorValorPorReferencia\Debug\PassagemDeArgumentoPorValorPorReferencia.pdb

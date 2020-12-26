@@ -1,0 +1,3 @@
+﻿  ForEachExercicios.cpp
+E:\Doc\Algoritmos\CursoDeC--\ForEachExercicios\ForEachExercicios.cpp(7,76): warning C4305: 'initializing': truncation from 'double' to 'float'
+  ForEachExercicios.vcxproj -> E:\Doc\Algoritmos\CursoDeC--\ForEachExercicios\Debug\ForEachExercicios.exe
