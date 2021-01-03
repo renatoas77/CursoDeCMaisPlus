@@ -1,0 +1,2 @@
+E:\Doc\Algoritmos\CursoDeC--\Typedef\Debug\Typedef.exe
+E:\Doc\Algoritmos\CursoDeC--\Typedef\Debug\Typedef.pdb

@@ -1,0 +1,4 @@
+﻿  Pontos.cpp
+E:\Doc\Algoritmos\CursoDeC--\Pontos3D\Pontos.cpp(49,42): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\Doc\Algoritmos\CursoDeC--\Pontos3D\Pontos.cpp(50,43): warning C4305: 'argument': truncation from 'double' to 'float'
+  Pontos3D.vcxproj -> E:\Doc\Algoritmos\CursoDeC--\Pontos3D\Debug\Pontos3D.exe

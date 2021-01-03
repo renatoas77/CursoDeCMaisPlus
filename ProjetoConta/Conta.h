@@ -23,4 +23,8 @@ public:
 	void SetAgencia(int Agencia);
 	void SetTitular(std::string Titular);
 	void SetNumConta(int NumConta);
+	
+	Conta();
+	Conta(std::string Banco, int Agencia, int NumConta, std::string Titular, double Saldo);
+	~Conta();
 };

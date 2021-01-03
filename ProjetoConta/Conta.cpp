@@ -89,6 +89,33 @@ void Conta::SetNumConta(int NumConta)
 	this->NumConta = NumConta;
 }
 
+Conta::Conta(std::string Banco, int Agencia, int NumConta, std::string Titular, double Saldo)
+{
+	this->Banco = Banco;
+	this->Agencia = Agencia;
+	this->NumConta = NumConta;
+	this->Titular = Titular;
+	this->Saldo = Saldo;
+	std::cout << "\Construtor Objeto Endereco: " << this << "executado!\n";
+
+}
+
+Conta::Conta()
+{
+	Banco = " ";
+	Agencia = 0;
+	NumConta = 0;
+	Titular = " ";
+	Saldo = 0.0;
+	std::cout << "\Construtor Objeto Endereco: " << this << "executado!\n";
+
+}
+
+Conta::~Conta()
+{
+	std::cout << "\nDestrutor Objeto Endereco: " << this << "executado!\n";
+}
+
 void Conta::SetTitular(std::string Titular)
 {
 	this->Titular = Titular;
