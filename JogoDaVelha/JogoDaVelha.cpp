@@ -4,42 +4,42 @@ class Velha
 {
 private:
     int Malha[3][3];
-    int Posicoes{1};
+    int Posicoes{ 1 };
     int Resposta;
-    int JogadorAtual{10},ProximoJogador{0},Auxiliar{11};
-    char SimboloAtual{'X'},ProximoSimbolo{'O'},SimboloAuxiliar{'K'};
-    int PontosX{0},PontosO{0};
-    bool Validade,Venceu{false};
+    int JogadorAtual{ 10 }, ProximoJogador{ 0 }, Auxiliar{ 11 };
+    char SimboloAtual{ 'X' }, ProximoSimbolo{ 'O' }, SimboloAuxiliar{ 'K' };
+    int PontosX{ 0 }, PontosO{ 0 };
+    bool Validade, Venceu{ false };
 
 public:
-   void ConstruirMalha()
-{
-    Posicoes = 1;
-    for (int i = 0; i<3; i++)
+    void ConstruirMalha()
+    {
+        Posicoes = 1;
+        for (int i = 0; i < 3; i++)
         {
-            for (int j = 0; j<3; j++)
-                {
-                    Malha[i][j] = Posicoes;
-                    Posicoes++;
-                }
+            for (int j = 0; j < 3; j++)
+            {
+                Malha[i][j] = Posicoes;
+                Posicoes++;
+            }
         }
 
-}
+    }
 
     void ExibirMalha()
     {
         Validade = false;
-         for (int i = 0; i<3; i++)
+        for (int i = 0; i < 3; i++)
         {
-            for (int j = 0; j<3; j++)
-                {
-                    if (Malha[i][j] == 10)
-                        std::cout << "x ";
-                    else if (Malha[i][j] == 0)
-                        std::cout << "0 ";
-                    else
-                    std::cout << Malha[i][j]<<" ";
-                }
+            for (int j = 0; j < 3; j++)
+            {
+                if (Malha[i][j] == 10)
+                    std::cout << "x ";
+                else if (Malha[i][j] == 0)
+                    std::cout << "0 ";
+                else
+                    std::cout << Malha[i][j] << " ";
+            }
             std::cout << "\n";
         }
     }
@@ -54,39 +54,41 @@ public:
         ProximoSimbolo = SimboloAuxiliar;
     }
 
-     void Jogar()
-    { do{
-            std::cout << "\nJogador " << SimboloAtual <<"\n";
+    void Jogar()
+    {
+        do
+        {
+            std::cout << "\nJogador " << SimboloAtual << "\n";
             std::cout << "Digita onde deseja jogar: ";
             std::cin >> Resposta;
-            for (int i = 0; i<3; i++)
+            for (int i = 0; i < 3; i++)
             {
-                for (int j = 0; j<3; j++)
+                for (int j = 0; j < 3; j++)
+                {
+                    if (Resposta > 0 && Resposta < 10)
                     {
-                       if (Resposta>0 && Resposta<10)
-                       {
-                            if (Resposta==Malha[i][j])
-                            {
-                              Malha[i][j] = JogadorAtual;
-                              Validade  = true;
-                            }
-                       }
+                        if (Resposta == Malha[i][j])
+                        {
+                            Malha[i][j] = JogadorAtual;
+                            Validade = true;
+                        }
                     }
+                }
             }
             if (Validade == false)
-                {
+            {
 
-                    std::cout << "Jogada invalida! \n";
-                    Velha::ExibirMalha();
-                }
-        }while(Validade==false);
+                std::cout << "Jogada invalida! \n";
+                Velha::ExibirMalha();
+            }
+        } while (Validade == false);
         system("CLS");
     }
 
     bool Vencedor()
     {
         Venceu = false;
-        for (int i=0;i<3;i++)
+        for (int i = 0; i < 3; i++)
         {
             if (Malha[i][0] == Malha[i][1] && Malha[i][1] == Malha[i][2])
             {
@@ -113,11 +115,11 @@ public:
     {
         if (Venceu == false)
         {
-            std::cout <<"Deu velha \n";
+            std::cout << "Deu velha \n";
             std::cout << "Placar Atual\n";
             std::cout << "X: " << PontosX << "\n";
             std::cout << "O: " << PontosO << "\n";
-            std::cout <<"Deseja jogar novamente?\n";
+            std::cout << "Deseja jogar novamente?\n";
         }
         else
         {
@@ -133,7 +135,7 @@ public:
             std::cout << "Placar Atual\n";
             std::cout << "X: " << PontosX << "\n";
             std::cout << "O: " << PontosO << "\n";
-            std::cout <<"Deseja jogar novamente?\n";
+            std::cout << "Deseja jogar novamente?\n";
         }
     }
 };
@@ -142,10 +144,10 @@ public:
 
 int main()
 {
-    int contador{0};
-    bool Vitoria{false};
+    int contador{ 0 };
+    bool Vitoria{ false };
     Velha JogoDaVelha;
-    char Jogar{'S'};
+    char Jogar{ 'S' };
 
 
     do
@@ -159,13 +161,11 @@ int main()
             JogoDaVelha.TrocarVez();
             Vitoria = JogoDaVelha.Vencedor();
             contador++;
-        }
-        while(Vitoria == false && contador<9);
+        }         while (Vitoria == false && contador < 9);
         JogoDaVelha.Resultado();
         std::cin >> Jogar;
-         system("CLS");
-    }
-    while(Jogar == 'S'|| Jogar == 's');
+        system("CLS");
+    }     while (Jogar == 'S' || Jogar == 's');
 
     system("PAUSE");
     return 0;
